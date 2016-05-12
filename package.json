@@ -1,0 +1,34 @@
+{
+  "name": "npme-auth-gitlab",
+  "version": "0.1.0",
+  "description": "Login to npm Enterprise using GitLab credentials",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexdrew/npme-auth-gitlab.git"
+  },
+  "keywords": [
+    "npme",
+    "auth",
+    "gitlab"
+  ],
+  "author": "nexdrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexdrew/npme-auth-gitlab/issues"
+  },
+  "homepage": "https://github.com/nexdrew/npme-auth-gitlab#readme",
+  "devDependencies": {
+    "standard": "^7.0.1",
+    "standard-version": "^2.2.1"
+  },
+  "dependencies": {
+    "github-url-from-git": "^1.4.0",
+    "got": "^6.3.0",
+    "redis": "^2.6.0-2"
+  }
+}
