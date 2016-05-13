@@ -8,9 +8,9 @@ To install on your npm Enterprise instance:
 
 1. `cd /usr/local/lib/npme/data` (or the directory configured for _Miscellaneous data files_ in the admin console)
 
-2. `npm i npme-auth-gitlab`
+2. `sudo npm i npme-auth-gitlab`
 
-3. `touch gitlab.json` and populate it with data like the following:
+3. `sudo touch gitlab.json` and populate it with data like the following:
 
     ```json
     {

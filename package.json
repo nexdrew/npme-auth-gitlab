@@ -7,6 +7,10 @@
     "test": "standard",
     "release": "standard-version"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nexdrew/npme-auth-gitlab.git"
