@@ -1,6 +1,6 @@
 {
   "name": "npme-auth-gitlab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Login to npm Enterprise using GitLab credentials",
   "main": "index.js",
   "scripts": {
